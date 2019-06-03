@@ -4,9 +4,7 @@ import {
     Navbar,
     NavLeft,
     NavTitle,
-    NavRight,
     Link,
-    Toolbar,
     Block,
     BlockTitle,
     List,
@@ -23,20 +21,13 @@ export default () => (
         <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left"></Link>
       </NavLeft>
       <NavTitle>My App</NavTitle>
-      <NavRight>
-        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right"></Link>
-      </NavRight>
     </Navbar>
-    <Toolbar bottom>
-      <Link>Left Link</Link>
-      <Link>Right Link</Link>
-    </Toolbar>
     <Block strong>
       <p>Here is your blank Framework7 app. Let's see what we have here.</p>
     </Block>
     <BlockTitle>Navigation</BlockTitle>
     <List>
-      <ListItem link="/about/" title="About"></ListItem>
+      <ListItem link="/msearch/" title="About"></ListItem>
       <ListItem link="/form/" title="Form"></ListItem>
     </List>
     <BlockTitle>Modals</BlockTitle>

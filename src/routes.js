@@ -1,10 +1,10 @@
 import HomePage from './components/pages/HomePage';
+import MainSearch from './components/pages/MainSearch';
 import AboutPage from './components/pages/AboutPage';
 import FormPage from './components/pages/FormPage';
 import DynamicRoutePage from './components/pages/DynamicRoutePage';
 import NotFoundPage from './components/pages/NotFoundPage';
 import PanelLeftPage from './components/pages/PanelLeftPage';
-import PanelRightPage from './components/pages/PanelRightPage';
 
 export default [
   {
@@ -12,12 +12,12 @@ export default [
     component: HomePage,
   },
   {
-    path: '/panel-left/',
-    component: PanelLeftPage,
+    path: '/msearch',
+    component: MainSearch,
   },
   {
-    path: '/panel-right/',
-    component: PanelRightPage,
+    path: '/panel-left/',
+    component: PanelLeftPage,
   },
   {
     path: '/about/',

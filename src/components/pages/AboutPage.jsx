@@ -1,10 +1,9 @@
 import React from 'react';
-import { Page, Navbar, Link, Block, BlockTitle } from 'framework7-react';
+import { Page, Navbar, Link, Block } from 'framework7-react';
 
 export default () => (
   <Page>
     <Navbar title="About" backLink="Back"></Navbar>
-    <BlockTitle>About My App</BlockTitle>
     <Block strong>
       <p>Here is About page!</p>
       <p>You can go <Link back>back</Link>.</p>
